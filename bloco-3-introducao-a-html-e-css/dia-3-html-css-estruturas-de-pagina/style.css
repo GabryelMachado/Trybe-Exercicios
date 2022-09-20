@@ -24,12 +24,14 @@
 .speech {
   font-size: 16px;
   position: absolute;
-  left: 270px;
-  top: 125px;
+  left: 268px;
+  top: 128px;
   z-index: 4;
 }
 
 .bowser {
   width: 200px;
   position: absolute;
+  left: 425px;
+  top: 160px;
 }
