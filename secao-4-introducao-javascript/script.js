@@ -1,7 +1,8 @@
-let numero = 10
-let resultado = 1
+let word = 'tryber';
+let reverseWord = '';
 
-for (let i = 1; i <= numero; i += 1){
-    resultado *= i
+for (let i=0; i < word.length; i += 1){
+    reverseWord += word[word.length - 1 - i];
 }
-console.log(resultado)
+
+console.log(reverseWord)
