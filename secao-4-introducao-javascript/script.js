@@ -1,8 +1,19 @@
-let word = 'tryber';
-let reverseWord = '';
+let array = ['java', 'javascript', 'python', 'html', 'css'];
 
-for (let i=0; i < word.length; i += 1){
-    reverseWord += word[word.length - 1 - i];
+let maiorPalavra = array[0];
+let menorPalavra = array[0];
+
+for (let index = 0; index < array.length; index += 1) {
+  if (array[index].length > maiorPalavra.length) {
+    maiorPalavra = array[index];
+  }
 }
 
-console.log(reverseWord)
+for (let index = 0; index < array.length; index += 1) {
+  if (array[index].length < menorPalavra.length) {
+    menorPalavra = array[index];
+  }
+}
+
+console.log(maiorPalavra);
+console.log(menorPalavra);
