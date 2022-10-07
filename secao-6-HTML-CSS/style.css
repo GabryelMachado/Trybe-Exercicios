@@ -1,0 +1,77 @@
+#header {
+    margin-left: 360px;
+    margin-top: 30px;
+}
+
+#main-section {
+    width: 500px;
+    height: 700px;
+    border: 3px solid;
+    margin-left: 220px;
+}
+
+#section2 {
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+#section3 {
+    margin-left: 123px;
+    margin-top: 8px;
+}
+
+#opcoes {
+    margin-top: 1px;
+    margin-left: 90px;
+}
+
+#h4{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+#paragrafo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#section4 {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 55px;
+}
+
+#textarea {
+    margin-left: 120px;
+}
+
+#areatext {
+    padding-top: 15px;
+}
+
+#data1 {
+    margin-left: 55px;
+}
+
+#secao-data {
+    padding-top: 30px;
+}
+
+#secao-novidades {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: green;
+}
+
+#secao-imagem {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: green;
+}
+
+#final-css {
+    padding-top: 30px;
+    padding-left: 190px;
+}

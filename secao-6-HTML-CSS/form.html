@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <title>Projeto Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+ <header id="header">
+   <h1>Insira seus dados</h1>
+ </header>
+   <section id="section">
+    <form action="">
+      <section id="main-section">
+        <section id="section2"> 
+          <label for="input1" id="label-nome"><strong>Nome:</strong></label>
+          <input type="text" name="nome" id=input1 min="10" maxlength="50" value="" required>
+        </section>
+        <section id="section3">
+          <label for="input2" id="label-email"><strong>E-mail:</strong></label>
+          <input type="email" name="e-mail" id="input2" minlength="10" maxlength="50" value="" required >
+        </section>
+        <h4 id="h4">Escolha um destino:</h4>
+        <section id="opcoes">
+        <input type="radio" name="radio" id="radio1" value="" required>
+        <label for="radio1" id="opcao1">Cidade</label>
+        <input type="radio" name="radio" id="radio2" value=""
+        required>
+        <label for="radio2" id="opcao2">Campo</label>
+        <input type="radio" name="radio" id="radio3" value="" required>
+        <label for="radio3" id="opcao3">Praia</label>
+        <input type="radio" name="radio" id="radio4" value="" required>
+        <label for="radio4" id="opcao4">Montanhas</label>
+      </section>
+      <section id="section4">
+        <p id="paragrafo"><em>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</em></p>
+      </section>
+      <section id="areatext">
+        <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Por que deve ser o ganhador?"></textarea>
+      </section>
+      <section id="secao-data">
+        <label for="data2" id="data1"><em>Qual a melhor data para sua viagem?</em></label>
+        <input type="date" name="data" id="data2">
+      </section>
+      <section id="secao-novidades">
+        <label for="concordo"><strong> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</strong></label>
+        <input type="checkbox" name="concordo" id="concordo" value="">
+      </section>
+      <section id="secao-imagem">
+          <label for="concordo-imagem"><strong>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</strong></label>
+            <input type="checkbox" name="concordo-imagem" id="imagem-concordo">
+      </section>
+      <section id="final-css">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </section>
+    </section>
+    </form>
+   </section>
+  <script src="script.js"></script>
+</body>
+</html>
